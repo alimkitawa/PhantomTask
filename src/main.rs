@@ -1,13 +1,13 @@
-mod utils;
-mod tasks;
 mod sessions;
+mod tasks;
+mod utils;
 
 use sessions::list_active_sessions;
 use tasks::create_task;
 
-use windows::Win32::System::RemoteDesktop::WTSGetActiveConsoleSessionId;
-use windows::Win32::System::Com::CoUninitialize;
 use clap::{Arg, Command};
+use windows::Win32::System::Com::CoUninitialize;
+use windows::Win32::System::RemoteDesktop::WTSGetActiveConsoleSessionId;
 
 fn main() -> windows_core::Result<()> {
     let args = Command::new("PhantomTask")
@@ -90,12 +90,7 @@ fn main() -> windows_core::Result<()> {
         println!();
 
         match create_task(
-            task_name,
-            task_path,
-            arguments,
-            user_name,
-            password,
-            session_id,
+            task_name, task_path, arguments, user_name, password, session_id,
         ) {
             Ok(_) => {
                 println!("\n[+] Task successfully created and executed!");
@@ -105,7 +100,7 @@ fn main() -> windows_core::Result<()> {
             }
         }
     }
-    
+
     unsafe {
         CoUninitialize();
         println!("[i] COM library uninitialized");

@@ -31,6 +31,23 @@ The compiled binary will be available at `target/release/phantomtask.exe`
 
 ## Usage
 
+### Help
+
+```powershell
+Usage: phantomtask.exe [OPTIONS]
+
+Options:
+  -l, --list                   List active sessions on the local machine
+  -n, --name <taskname>        The name of the task to create
+  -f, --program <program>      The program to execute
+  -a, --arguments <arguments>  The arguments to pass to the program
+  -u, --username <username>    The username to run the task as
+  -p, --password <password>    The password for the specified username
+  -s, --sessionid <sessionid>  The session ID to run the task in
+  -h, --help                   Print help
+  -V, --version                Print version
+```
+
 ### List Active Sessions
 
 Display all active Windows Terminal Services sessions with their details:

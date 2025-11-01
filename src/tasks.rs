@@ -7,11 +7,10 @@ use windows::Win32::System::Com::{
     COINIT_MULTITHREADED, EOAC_NONE, RPC_C_AUTHN_LEVEL_PKT_PRIVACY, RPC_C_IMP_LEVEL_IMPERSONATE,
 };
 use windows::Win32::System::TaskScheduler::{
-    IExecAction, IPrincipal, IRegisteredTask, IRegistrationInfo,
-    ITaskDefinition, ITaskFolder, ITaskService, ITimeTrigger, TaskScheduler,
-    TASK_ACTION_EXEC, TASK_CREATE_OR_UPDATE, TASK_INSTANCES_IGNORE_NEW,
-    TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_PASSWORD, TASK_RUNLEVEL_HIGHEST, TASK_RUN_NO_FLAGS,
-    TASK_RUN_USE_SESSION_ID, TASK_TRIGGER_TIME,
+    IExecAction, IPrincipal, IRegisteredTask, IRegistrationInfo, ITaskDefinition, ITaskFolder,
+    ITaskService, ITimeTrigger, TaskScheduler, TASK_ACTION_EXEC, TASK_CREATE_OR_UPDATE,
+    TASK_INSTANCES_IGNORE_NEW, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_PASSWORD,
+    TASK_RUNLEVEL_HIGHEST, TASK_RUN_NO_FLAGS, TASK_RUN_USE_SESSION_ID, TASK_TRIGGER_TIME,
 };
 use windows::Win32::System::Variant::VARIANT;
 use windows_core::BSTR;
@@ -195,8 +194,6 @@ pub fn create_task(
     Ok(())
 }
 
-
-
 fn register_with_session_id(
     task_folder: &ITaskFolder,
     task_name: &str,
@@ -228,4 +225,3 @@ fn register_with_session_id(
         )
     }
 }
-

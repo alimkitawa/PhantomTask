@@ -4,9 +4,8 @@ use std::ptr::null_mut;
 
 use windows::Win32::System::RemoteDesktop::{
     WTSActive, WTSConnectQuery, WTSConnected, WTSDisconnected, WTSDomainName, WTSDown,
-    WTSEnumerateSessionsW, WTSFreeMemory, WTSIdle, WTSInit,
-    WTSListen, WTSQuerySessionInformationW, WTSReset, WTSShadow, WTSUserName,
-    WTS_CURRENT_SERVER_HANDLE, WTS_SESSION_INFOW,
+    WTSEnumerateSessionsW, WTSFreeMemory, WTSIdle, WTSInit, WTSListen, WTSQuerySessionInformationW,
+    WTSReset, WTSShadow, WTSUserName, WTS_CURRENT_SERVER_HANDLE, WTS_SESSION_INFOW,
 };
 
 use windows_core::BSTR;
